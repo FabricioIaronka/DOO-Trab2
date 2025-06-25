@@ -34,6 +34,26 @@
 
 ---
 
+## 🧩 Integração do Driver JDBC MySQL no NetBeans com Java ANT
+
+Para que o projeto consiga se conectar ao banco de dados MySQL, é necessário adicionar o driver JDBC do MySQL ao classpath do projeto.
+
+### 📥 Passo 1: Baixar o driver JDBC
+
+1. Acesse: [https://dev.mysql.com/downloads/connector/j/](https://dev.mysql.com/downloads/connector/j/)
+2. Baixe a versão mais recente do **MySQL Connector/J** (arquivo `.zip` ou `.tar.gz`).
+3. Extraia o conteúdo e localize o arquivo `mysql-connector-java-<versao>.jar`.
+
+### 🛠️ Passo 2: Adicionar o JAR ao projeto no NetBeans
+
+1. No NetBeans, clique com o botão direito sobre o projeto e selecione **Properties**.
+2. Vá até a aba **Libraries**.
+3. Clique em **Add JAR/Folder**.
+4. Selecione o arquivo `mysql-connector-java-<versao>.jar` baixado anteriormente.
+5. Confirme com **OK**.
+
+---
+
 ## 🧑‍💻 Como usar o programa
 
 ### 1. Criar um Campeonato (Championship)
